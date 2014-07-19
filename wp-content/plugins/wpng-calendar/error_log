@@ -1,0 +1,2 @@
+[08-Jul-2010 23:40:51] PHP Fatal error:  Call to undefined function  add_action() in /home/bagosyc1/public_html/alternateu.com/wp-content/plugins/wpng-calendar/wpng-calendar.php on line 333
+[31-May-2014 14:37:48 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/au/public_html/wp-content/plugins/wpng-calendar/wpng-calendar.php on line 333

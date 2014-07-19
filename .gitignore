@@ -1,0 +1,63 @@
+# This is a template .gitignore file for git-managed WordPress projects.
+#
+# Fact: you don't want WordPress core files, or your server-specific
+# configuration files etc., in your project's repository. You just don't.
+#
+# Solution: stick this file up your repository root (which it assumes is
+# also the WordPress root directory) and add exceptions for any plugins,
+# themes, and other directories that should be under version control.
+#
+# See the comments below for more info on how to add exceptions for your
+# content. Or see git's documentation for more info on .gitignore files:
+# http://kernel.org/pub/software/scm/git/docs/gitignore.html
+ 
+# Ignore everything in the root except the "wp-content" directory.
+.name
+au.iml
+encodings.xml
+misc.xml
+modules.xml
+scope_settings.xml
+vcs.xml
+workspace.xml
+/forums/config.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-feed.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wpng-calendar_0.8.5.zip
+/wp-pass.php
+/wp-rdf.php
+/wp-register.php
+/wp-rss.php
+/wp-rss2.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/.htaccess
+/calendar_2.php
+/error_log
+/googlehostedservice.html
+/index.php
+/license.txt
+/New Text Document.txt
+/readme.html
+/searchreplacedb2.php
+/sitemap.xml
+/sitemap.xml.gz
+/wp-activate.php
+/wp-atom.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-commentsrss2.php
+/wp-config.php
+/wp-admin
+/wp-includes
+/wp-content/upgrade
+/wp-content/uploads
+/wp-content/index.php
+/forums_old
